@@ -1,0 +1,150 @@
+/* Color palette: https://coolors.co/0e2f42-1a4b60-2c829e-f9e5e6-f0d2d4-dfa4aa-e68989 */
+
+body {
+  color: #0E2F42;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather',
+    serif;
+}
+
+/* 100% = 16px = 1em */
+/* rem is releative em which is releative to root so parent font scale doesn't effect size */
+h1 {
+  font-size: 6.625rem;
+  margin: 0 auto 0 auto;
+  color: #2C829E;
+  font-family: 'Sacramento',
+    cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #2C829E;
+  font-weight: normal;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+h3 {
+  color: #1A4B60;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+a {
+  color: #E68989;
+  text-decoration: none;
+  margin: 10px 30px 10px;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+#programmer {
+  margin-top: 0px;
+}
+
+#top-container {
+  background-color: #f9e5e6;
+  position: relative;
+  padding-top: 20px;
+}
+
+#mountain-pic {
+  height: 60%;
+  width: 60%;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto 0 auto;
+}
+
+.profile-pic {
+  width: 30%;
+}
+
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 200px auto;
+}
+
+.web-skill-image {
+  float: left;
+  margin-right: 30px;
+  width: 30%;
+}
+
+.code-skill-image {
+  float: right;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.contact-me {
+  margin: 100px auto 0 auto;
+  width: 50%;
+}
+
+.btn {
+  background: #F0D2D4;
+  background-image: -webkit-linear-gradient(top, #F0D2D4, #EFB4B4);
+  background-image: -moz-linear-gradient(top, #F0D2D4, #EFB4B4);
+  background-image: -ms-linear-gradient(top, #F0D2D4, #EFB4B4);
+  background-image: -o-linear-gradient(top, #F0D2D4, #EFB4B4);
+  background-image: linear-gradient(to bottom, #F0D2D4, #EFB4B4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat',
+    sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f2dcde;
+  background-image: -webkit-linear-gradient(top, #f2dcde, #ebbfbf);
+  background-image: -moz-linear-gradient(top, #f2dcde, #ebbfbf);
+  background-image: -ms-linear-gradient(top, #f2dcde, #ebbfbf);
+  background-image: -o-linear-gradient(top, #f2dcde, #ebbfbf);
+  background-image: linear-gradient(to bottom, #f2dcde, #ebbfbf);
+  text-decoration: none;
+}
+
+#contact-me-btn {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #f9e5e6;
+  padding: 50px;
+  position: relative;
+}
+
+#cc-tag {
+  margin-top: 30px;
+  color: #0E2F42;
+  font-size: 0.8rem;
+}
