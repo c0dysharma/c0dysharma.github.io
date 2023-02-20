@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      md: "800px",
+      lg: "1100px",
+    },
     extend: {
       colors: {
         accentColor: "#006D77",
@@ -16,6 +20,9 @@ module.exports = {
       },
       borderRadius: {
         base: "10px",
+      },
+      backgroundImage: {
+        heroBG: 'url("./src/assets/images/image-bg-memphis-ptt.png")',
       },
     },
   },
