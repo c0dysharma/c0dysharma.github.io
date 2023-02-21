@@ -20,10 +20,10 @@ const HeroSection = () => {
     <div>
       <div className="text-center mt-16 md:mt-36">
         {/* top level headings  */}
-        <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
+        <h1 className="font-extrabold text-xl sm:text-3xl md:text-5xl lg:text-6xl">
           I'm <span className="text-accentColor">Kuldeep Sharma.</span>
         </h1>
-        <h2 className="font-extrabold text-2xl md:text-6xl lg:text-7xl md:mb-16">
+        <h2 className="font-extrabold text-2xl sm:text-4xl md:text-6xl lg:text-7xl md:mb-16">
           Welcome to my portfolio
         </h2>
         {/* hero image  */}
