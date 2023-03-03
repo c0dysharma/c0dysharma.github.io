@@ -18,7 +18,7 @@ const HeroImage = () => (
 const HeroSection = () => {
   return (
     <div>
-      <div className="text-center mt-16 mb-14 md:mt-36">
+      <div className="text-center mt-16 md:mt-36">
         {/* top level headings  */}
         <h1 className="font-extrabold text-xl sm:text-3xl md:text-5xl lg:text-6xl">
           I'm <span className="text-accentColor">Kuldeep Sharma.</span>

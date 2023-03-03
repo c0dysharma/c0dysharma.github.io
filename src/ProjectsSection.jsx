@@ -19,7 +19,7 @@ const ProjectElement = ({ image, heading, subHeading, text, className }) => (
 const PorjectsSection = () => {
   const onCTAClickHandler = () => {};
   return (
-    <div className="mb-14">
+    <div className="">
       <div className="mb-10 text-center md:text-left md:flex justify-between">
         <SectionHeading
           headingText="Featured projects"
