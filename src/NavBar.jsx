@@ -17,7 +17,7 @@ const HeaderCTAbtn = ({ onClickHandler }) => (
 );
 
 const MobileNav = ({}) => (
-  <div className="absolute top-0 right-8">
+  <div className="absolute top-6 right-8">
     <ul className="flex flex-col bg-white px-6 py-3 rounded-base text-sm gap-1 font-medium">
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
