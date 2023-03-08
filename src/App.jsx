@@ -21,11 +21,11 @@ function App() {
             <ProjectsSection />
           </div>
 
-          <div id="tech-stack" className="mb-24">
+          <div id="skills" className="mb-24">
             <TechStackSection />
           </div>
 
-          <div id="about-me" className="mb-24">
+          <div id="about" className="mb-24">
             <AboutMeSection />
           </div>
 

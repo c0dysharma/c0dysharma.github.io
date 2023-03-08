@@ -10,7 +10,7 @@ const Logo = () => (
 const HeaderCTAbtn = ({ onClickHandler }) => (
   <button
     onClick={onClickHandler}
-    className="text-white bg-accentColor px-3 py-1 rounded-base mr-2 font-semibold md:text-lg"
+    className="text-white bg-accentColor visited:bg-hoverColor hover:bg-hoverColor active:bg-hoverColor px-3 py-1 rounded-base mr-2 font-semibold md:text-lg"
   >
     Let's Talk
   </button>
@@ -29,7 +29,9 @@ const MobileNav = ({}) => (
 const NavBar = () => {
   const [showNav, setShowNav] = useState(false);
 
-  const onCTAClickHandler = () => {};
+  const onCTAClickHandler = () => {
+    document.getElementById("cta").scrollIntoView();
+  };
   const onHamburgerClickHandler = () => {
     setShowNav((value) => !value);
   };
