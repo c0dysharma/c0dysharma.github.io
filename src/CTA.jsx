@@ -1,9 +1,13 @@
 import React from "react";
 import { SectionHeading } from "./components/SectionHeading";
 
-const CTAButton = ({ text, logo, link, className }) => {
+const CTAButton = ({ text, logo, link, target, className }) => {
   return (
-    <a href={link} className={"flex justify-center" + " " + className}>
+    <a
+      href={link}
+      target={target}
+      className={"flex justify-center" + " " + className}
+    >
       <div
         className="flex gap-7 items-center justify-center bg-forgroundColor rounded-base
       w-full h-16 md:w-72 md:h-20 visited:bg-hoverForegroundColor hover:bg-hoverForegroundColor active:bg-hoverForegroundColor"
@@ -35,12 +39,14 @@ const Footer = () => {
         <CTAButton
           text="Linked In"
           logo="./src/assets/logos/linkedin.svg"
+          target="_blank"
           link="https://linkedin.com/in/c0dysharma"
         />
 
         <CTAButton
           text="Github"
           logo="./src/assets/logos/github.svg"
+          target="_blank"
           link="https://github.com/c0dysharma"
         />
 
