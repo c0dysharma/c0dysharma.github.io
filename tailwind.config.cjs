@@ -12,6 +12,7 @@ module.exports = {
         accentColor: "#006D77",
         hoverColor: "#004c53",
         forgroundColor: "#192438",
+        hoverForegroundColor: "#0f1622",
         mutedColor: "#8D99AF",
         lightBG: "#EDF6F9",
       },

@@ -2,7 +2,8 @@ import HeroSection from "./HeroSection";
 import NavBar from "./NavBar";
 import ProjectsSection from "./ProjectsSection";
 import TechStackSection from "./TechStack";
-import AboutMeSection from './About'
+import AboutMeSection from "./About";
+import FooterSection from "./Footer";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           <AboutMeSection />
         </div>
 
+        <div id="cta" className="mb-24">
+          <FooterSection />
+        </div>
       </div>
     </div>
   );

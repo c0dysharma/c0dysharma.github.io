@@ -20,5 +20,5 @@
        transform="scale(0.1)"
        id="g12"><path
          id="path14"
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="M 0,847.191 V 880 c 0,44.18 35.8203,80 80,80 h 1120 c 44.18,0 80,-35.82 80,-80 v -32.809 l -640,-400 z m 661.211,-481.14 c -12.973,-8.082 -29.449,-8.082 -42.422,0 L 0,752.809 V 80 C 0,35.8203 35.8203,0 80,0 h 1120 c 44.18,0 80,35.8203 80,80 v 672.809 z" /></g></g></svg>
