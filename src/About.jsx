@@ -1,6 +1,5 @@
 import { SectionHeading } from "./components/SectionHeading";
 import { SectionCTABtn } from "./components/SectionCTABtn";
-import { MobileCTABtn } from "./components/MobileCTABtn";
 
 const About = () => {
   const onCTAClickHandler = () => {};
