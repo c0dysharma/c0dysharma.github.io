@@ -12,20 +12,20 @@ function App() {
       <div className="md:max-w-fourk md:mx-auto">
         {/* centerised container  */}
         <div className="mx-5 md:mx-10 lg:mx-20">
-          <div id="home" className="mb-16">
+          <div id="home" className="mb-36">
             <NavBar />
             <HeroSection />
           </div>
 
-          <div id="projects" className="mb-24">
+          <div id="projects" className="mb-36">
             <ProjectsSection />
           </div>
 
-          <div id="skills" className="mb-24">
+          <div id="skills" className="mb-36">
             <TechStackSection />
           </div>
 
-          <div id="about" className="mb-24">
+          <div id="about" className="mb-36">
             <AboutMeSection />
           </div>
 
