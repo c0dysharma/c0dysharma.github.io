@@ -42,9 +42,15 @@ const NavBar = () => {
       <Logo />
 
       <ul className="hidden md:flex gap-24 font-medium text-mutedColor">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About Me</a>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
       </ul>
 
       <div className="flex items-center">
