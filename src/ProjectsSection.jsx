@@ -54,13 +54,6 @@ const PorjectsSection = () => {
           subHeading="MongoDB, Expres JS, React JS, Node js"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         />
-
-        <ProjectElement
-          image="/assets/images/project-placeholder.jpg"
-          heading="Social Media Platform Backend"
-          subHeading="MongoDB, Expres JS, React JS, Node js"
-          text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
-        />
       </div>
 
       <div className="flex justify-end md:hidden ">
