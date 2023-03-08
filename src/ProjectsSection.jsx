@@ -35,28 +35,28 @@ const PorjectsSection = () => {
 
       <div className="grid gap-y-10 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
         <ProjectElement
-          image="./src/assets/images/project-placeholder.jpg"
+          image="/assets/images/project-placeholder.jpg"
           heading="Dall-E 2.0 Website"
           subHeading="MongoDB, Expres JS, React JS, Node js"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         />
 
         <ProjectElement
-          image="./src/assets/images/project-placeholder.jpg"
+          image="/assets/images/project-placeholder.jpg"
           heading="Nike E-commerce App"
           subHeading="MongoDB, Expres JS, React JS, Node js"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         />
 
         <ProjectElement
-          image="./src/assets/images/project-placeholder.jpg"
+          image="/assets/images/project-placeholder.jpg"
           heading="Greets Backend"
           subHeading="MongoDB, Expres JS, React JS, Node js"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         />
 
         <ProjectElement
-          image="./src/assets/images/project-placeholder.jpg"
+          image="/assets/images/project-placeholder.jpg"
           heading="Social Media Platform Backend"
           subHeading="MongoDB, Expres JS, React JS, Node js"
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."

@@ -38,21 +38,21 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
         <CTAButton
           text="Linked In"
-          logo="./src/assets/logos/linkedin.svg"
+          logo="/assets/logos/linkedin.svg"
           target="_blank"
           link="https://linkedin.com/in/c0dysharma"
         />
 
         <CTAButton
           text="Github"
-          logo="./src/assets/logos/github.svg"
+          logo="/assets/logos/github.svg"
           target="_blank"
           link="https://github.com/c0dysharma"
         />
 
         <CTAButton
           text="Email Me"
-          logo="./src/assets/logos/email.svg"
+          logo="/assets/logos/email.svg"
           link="mailto:codysharma01@gmail.com"
           className=""
         />

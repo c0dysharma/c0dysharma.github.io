@@ -18,7 +18,7 @@ const About = () => {
 
       <div className="grid gap-5 justify-center md:grid-cols-2 md:gap-0">
         <img
-          src="./src/assets/images/me&tea.jpg"
+          src="/assets/images/me&tea.jpg"
           alt="Kuldeep with nice cup of tea"
           className="rounded-base max-w-[400px] w-full md:col-start-2 mx-auto"
         />

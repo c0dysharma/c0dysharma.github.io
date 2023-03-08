@@ -24,7 +24,7 @@ module.exports = {
         base: "10px",
       },
       backgroundImage: {
-        heroBG: 'url("./src/assets/images/image-bg-memphis-ptt.png")',
+        heroBG: 'url("/assets/images/image-bg-memphis-ptt.png")',
       },
       maxWidth: {
         fourk: "1440px",

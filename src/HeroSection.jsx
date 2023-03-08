@@ -3,12 +3,12 @@ import React from "react";
 const HeroImage = () => (
   <div className="relative flex justify-center mx-auto w-full sm:w-[80%]">
     <img
-      src="./src/assets/images/image-bg-memphis-ptt.png"
+      src="/assets/images/image-bg-memphis-ptt.png"
       alt="hero background memphis pattern"
       className="absolute origin-bottom bottom-0 -z-10 w-full h-auto max-w-[500px]"
     />
     <img
-      src="./src/assets/images/hero-image.png"
+      src="/assets/images/hero-image.png"
       alt="Kuldeep in heroic pose"
       className="w-[70%] h-auto mx-auto mt-10 max-w-[350px]"
     />

@@ -19,12 +19,12 @@ const TechStack = () => {
       </div>
 
       <div className="grid items-center gap-x-8 gap-y-5 grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
-        <TechItem image="./src/assets/logos/javascript.svg" text="Javascript" />
-        <TechItem image="./src/assets/logos/react-2.svg" text="React Js" />
-        <TechItem image="./src/assets/logos/python.svg" text="Python" />
-        <TechItem image="./src/assets/logos/node-js.svg" text="Node Js" />
+        <TechItem image="/assets/logos/javascript.svg" text="Javascript" />
+        <TechItem image="/assets/logos/react-2.svg" text="React Js" />
+        <TechItem image="/assets/logos/python.svg" text="Python" />
+        <TechItem image="/assets/logos/node-js.svg" text="Node Js" />
         <TechItem
-          image="./src/assets/logos/mongodb.svg"
+          image="/assets/logos/mongodb.svg"
           text="Mongo DB"
           className="col-span-2 sm:col-span-1"
         />
