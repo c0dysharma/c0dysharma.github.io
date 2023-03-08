@@ -2,6 +2,7 @@ import HeroSection from "./HeroSection";
 import NavBar from "./NavBar";
 import ProjectsSection from "./ProjectsSection";
 import TechStackSection from "./TechStack";
+import AboutMeSection from './About'
 
 function App() {
   return (
@@ -17,9 +18,14 @@ function App() {
           <ProjectsSection />
         </div>
 
-        <div id="tech-stack">
+        <div id="tech-stack" className="mb-24">
           <TechStackSection />
         </div>
+
+        <div id="about-me" className="mb-24">
+          <AboutMeSection />
+        </div>
+
       </div>
     </div>
   );

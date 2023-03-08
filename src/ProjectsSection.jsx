@@ -12,7 +12,7 @@ const ProjectElement = ({ image, heading, subHeading, text, className }) => (
     />
     <p className="text-forgroundColor font-extrabold">{heading}</p>
     <p className="text-mutedColor mb-3 text-sm">{subHeading}</p>
-    <p className="text-forgroundColor text-sm">{text}</p>
+    <p className="text-forgroundColor text-sm sm:text-base">{text}</p>
   </div>
 );
 
