@@ -1,16 +1,16 @@
 import React from "react";
 
 const HeroImage = () => (
-  <div className="relative md:scale-75 md:origin-top">
+  <div className="relative flex justify-center mx-auto w-full sm:w-[80%]">
     <img
       src="./src/assets/images/image-bg-memphis-ptt.png"
       alt="hero background memphis pattern"
-      className="absolute origin-bottom bottom-0 -z-10 scale-75"
+      className="absolute origin-bottom bottom-0 -z-10 w-full h-auto max-w-[500px]"
     />
     <img
       src="./src/assets/images/hero-image.png"
       alt="Kuldeep in heroic pose"
-      className="w-1/2 mx-auto mt-10"
+      className="w-[70%] h-auto mx-auto mt-10 max-w-[350px]"
     />
   </div>
 );
