@@ -34,7 +34,10 @@ const About = () => {
           All the Lorem Ipsum generators on the Internet tend to repeat
           predefined chunks as necessary, making this the first true generator
           on the Internet. <br /> <br /> To know more{" "}
-          <span className="text-accentColor font-semibold">
+          <span
+            className="text-accentColor font-semibold cursor-pointer"
+            onClick={onCTAClickHandler}
+          >
             Download my CV.
           </span>
         </p>
