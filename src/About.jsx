@@ -23,16 +23,17 @@ const About = () => {
           className="rounded-base max-w-[400px] w-full md:col-start-2 mx-auto"
         />
         <p className="text-center md:text-left md:col-start-1 md:row-start-1 md:text-lg">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injectedß
-          humour, or randomised words which don't look even slightly believable.
+          Hi, I'm Kuldeep and I'm currently pursuing my Bachelor's degree in
+          Computer Science. I've had a passion for computers since childhood and
+          started coding in 8th grade.
           <br /> <br />
-          If you are going to use a passage of Lorem Ipsum, you need to be sure
-          there isn't anything embarrassing hidden in the middle of text. <br />
+          Over time, I've gained proficiency in various programming languages
+          such as C, C++, Dart, and Python. Currently, I'm upgrading my skills
+          in MERN stack web development. <br />
           <br />
-          All the Lorem Ipsum generators on the Internet tend to repeat
-          predefined chunks as necessary, making this the first true generator
-          on the Internet. <br /> <br /> To know more{" "}
+          Originally from a small town in Haryana, I'm now based in Delhi and
+          eagerly seeking exciting career opportunities to help me unleash my
+          full potential. <br /> <br /> To know more{" "}
           <span
             className="text-accentColor font-semibold cursor-pointer"
             onClick={onCTAClickHandler}
