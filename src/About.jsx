@@ -2,7 +2,9 @@ import { SectionHeading } from "./components/SectionHeading";
 import { SectionCTABtn } from "./components/SectionCTABtn";
 
 const About = () => {
-  const onCTAClickHandler = () => {};
+  const onCTAClickHandler = () => {
+    window.open("/assets/resume/1-Kuldeep_Sharma_Resume_Full_stack_webdev.pdf");
+  };
 
   return (
     <div>
