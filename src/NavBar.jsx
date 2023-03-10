@@ -44,14 +44,17 @@ const NavBar = () => {
       <Logo />
 
       <ul className="hidden md:flex gap-24 font-medium text-mutedColor">
-        <li>
+        <li className="relative group">
           <a href="#projects">Projects</a>
+          <span className="absolute -bottom-1 right-0 w-0 h-1 bg-accentColor sm:group-hover:w-full group-hover:transition-all"></span>
         </li>
-        <li>
+        <li className="relative grouprelative group">
           <a href="#skills">Skills</a>
+          <span className="absolute -bottom-1 right-0 w-0 h-1 bg-accentColor sm:group-hover:w-full group-hover:transition-all"></span>
         </li>
-        <li>
+        <li className="relative group">
           <a href="#about">About Me</a>
+          <span className="absolute -bottom-1 right-0 w-0 h-1 bg-accentColor sm:group-hover:w-full group-hover:transition-all"></span>
         </li>
       </ul>
 

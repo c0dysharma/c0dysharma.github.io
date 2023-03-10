@@ -3,7 +3,11 @@ import { SectionHeading } from "./components/SectionHeading";
 
 const TechItem = ({ image, text, className }) => (
   <div className={"flex flex-col items-center gap-5" + " " + className}>
-    <img src={image} alt="Tech Logo" className="w-32 h-32 sm:w-40 sm:h-40" />
+    <img
+      src={image}
+      alt="Tech Logo"
+      className="w-32 h-32 sm:w-40 sm:h-40 duration-150 hover:scale-110 active:scale-110"
+    />
     <p className="text-forgroundColor font-medium">{text}</p>
   </div>
 );
