@@ -26,18 +26,19 @@ const About = () => {
         />
         <p className="text-center md:text-left md:col-start-1 md:row-start-1 md:text-lg">
           Hi, I'm Kuldeep and I'm currently pursuing my Bachelor's degree in
-          Computer Science. I've had a passion for computers since childhood and
-          started coding in 8th grade.
+          <strong> Computer Science.</strong> I've had a passion for computers
+          since childhood and started coding in 8th grade.
           <br /> <br />
           Over time, I've gained proficiency in various programming languages
           such as C, C++, Dart, and Python. Currently, I'm upgrading my skills
-          in MERN stack web development. <br />
+          in <strong>MERN stack web development. </strong> <br />
           <br />
-          Originally from a small town in Haryana, I'm now based in Delhi and
-          eagerly seeking exciting career opportunities to help me unleash my
-          full potential. <br /> <br /> To know more{" "}
+          Originally from a small town in Haryana, I'm now based in
+          <strong> New Delhi</strong> and eagerly seeking exciting career
+          opportunities to help me unleash my full potential. <br /> <br /> To
+          know more{" "}
           <span
-            className="text-accentColor font-semibold cursor-pointer"
+            className="text-accentColor font-bold cursor-pointer"
             onClick={onCTAClickHandler}
           >
             Download my CV.
