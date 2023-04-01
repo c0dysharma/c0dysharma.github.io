@@ -124,7 +124,7 @@ const PorjectsSection = () => {
       <div className="flex justify-end md:hidden ">
         <MobileCTABtn
           text="See all project..."
-          onCTAClick={onCTAClickHandler}
+          onCTAClick={() => onCTAClickHandler("https://github.com/c0dysharma")}
         />
       </div>
     </div>
