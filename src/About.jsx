@@ -3,7 +3,7 @@ import { SectionCTABtn } from "./components/SectionCTABtn";
 
 const About = () => {
   const onCTAClickHandler = () => {
-    window.open("/assets/resume/1-Kuldeep_Sharma_Resume_Full_stack_webdev.pdf");
+    window.open("/assets/resume/Kuldeep_Sharma_Resume.pdf");
   };
 
   return (
