@@ -25,13 +25,14 @@ const About = () => {
           className="rounded-base max-w-[400px] w-full md:col-start-2 mx-auto"
         />
         <p className="text-center md:text-left md:col-start-1 md:row-start-1 md:text-lg">
-          Hi, I'm Kuldeep and I'm currently pursuing my Bachelor's degree in
-          <strong> Computer Science.</strong> I've had a passion for computers
-          since childhood and started coding in 8th grade.
+          Hi, I'm Kuldeep and working as a<strong> Software Engineer.</strong>{" "}
+          I've had a passion for computers since childhood and started coding in
+          8th grade.
           <br /> <br />
           Over time, I've gained proficiency in various programming languages
-          such as C, C++, Dart, and Python. Currently, I'm upgrading my skills
-          in <strong>MERN stack web development. </strong> <br />
+          and skills such as Typescript, C, C++, Dart, and Python. Really into
+          design systems and backend infra.
+          <br />
           <br />
           Originally from a small town in Haryana, I'm now based in
           <strong> New Delhi</strong> and eagerly seeking exciting career
